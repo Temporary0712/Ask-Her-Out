@@ -1,9 +1,9 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    background-color: rgb(189, 225, 122);
+    margin: 0;
+    padding: 0;
+    background-image: url('b.png');
+    background-size: cover;
+    background-position: center;
 }
 
 #noButton {
@@ -18,13 +18,19 @@ body {
 }
 
 .header_text {
-    font-family: 'Nunito';
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0;
+}
+
+.text_bg {
+    font-family: 'Nunito';
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 0.15cm;
+    background-color: rgba(0, 0, 0, 0.827);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px; /* Adjust padding as needed */
 }
 
 .buttons {
